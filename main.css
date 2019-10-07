@@ -68,7 +68,7 @@ body {
 
 .img-container .img-buttons {
   position: absolute;
-  top: 30%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -76,7 +76,7 @@ body {
 
 .img-container .btn1 {
   background-color: #FFD297;
-  color: black;
+  color: white;
   font-size: 15px;
   padding: 5px 50px;
   margin: 10px 50px 10px 50px;
@@ -87,9 +87,9 @@ body {
 }
 
 .img-container .btn1:hover {
-  background-color: black;
+  background-color: white;
   color: #FFD297;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .img-container .btn1:focus {
