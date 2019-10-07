@@ -5,23 +5,25 @@ body {
 
 .my-container1 {
   display: flex;
-  margin: 10px 0px 10px 0px;
+  /* margin: 10px 0px 10px 0px; */
   /* border: 1px blue solid; */
 }
 
 .my-container1 img {
   flex: 1;
-  justify-content: center;
   max-width: 100px;
   height: auto;
-  margin-left: 40px;
+  margin: 5px 0px 5px 50px;
+  /* border: 2px solid black; */
 }
 
 .my-container1 h1 {
-  flex: 5;
+  flex: 1;
   font-size: 40px;
   font-family:sans-serif;
-  margin-left: 40px;
+  align-self: center;
+  margin-left: 30px;
+  /* border: 2px solid black; */
 }
 
 .my-container2 {
@@ -52,8 +54,48 @@ body {
   transition: background-color 600ms ease-in-out, color 600ms ease-in-out;
 }
 
-.my-img {
-  display: flex;
+.img-container {
+  position: relative;
   width: 100%;
+}
+
+.my-img {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
   /* border: 2px solid green; */
+}
+
+.img-container .img-buttons {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.img-container .btn1 {
+  background-color: #FFD297;
+  color: black;
+  font-size: 15px;
+  padding: 5px 50px;
+  margin: 10px 50px 10px 50px;
+  border-radius: 100px;
+  border: none;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.img-container .btn1:hover {
+  background-color: black;
+  color: #FFD297;
+  opacity: 0.8;
+}
+
+.img-container .btn1:focus {
+  outline: 0;
+}
+
+h3 {
+  font-size: 60px;
 }
