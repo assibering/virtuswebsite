@@ -1,0 +1,85 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+/* @media (min-width: 1281px) {
+} */
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+/* @media (min-width: 1025px) and (max-width: 1280px) {
+} */
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img-container .btn1 {
+    margin: 0 25px 0 25px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+} */
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .my-container1 img {
+    max-width: 50px;
+  }
+
+  .my-container1 h1 {
+    font-size: 20px;
+  }
+
+  .img-container .btn1 {
+    margin: 0 1px 0 1px;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .my-container1 img {
+    max-width: 40px;
+    margin: 5px 0px 5px 20px;
+  }
+
+  .my-container1 h1 {
+    font-size: 15px;
+  }
+
+  .my-container2 {
+    flex-direction: column;
+  }
+
+  .img-container {
+    position: relative;
+    top: 58px;
+    /* border: 2px solid green; */
+  }
+
+  .img-container .btn1 {
+    margin: 0 1px 0 1px;
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+}

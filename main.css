@@ -79,8 +79,9 @@ body {
   background-color: #FFD297;
   color: white;
   font-size: 15px;
+  font-weight: bold;
   padding: 5px 50px;
-  margin: 10px 50px 10px 50px;
+  margin: 0 50px 0 50px;
   border-radius: 100px;
   border: none;
   opacity: 0.9;
