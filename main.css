@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: white;
+  /* background-color: #FFD297; */
 }
 
 .my-container1 {
@@ -56,7 +57,7 @@ body {
 
 .img-container {
   position: relative;
-  width: 100%;
+  /* border: 2px solid green; */
 }
 
 .my-img {
@@ -68,7 +69,7 @@ body {
 
 .img-container .img-buttons {
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -96,6 +97,19 @@ body {
   outline: 0;
 }
 
-h3 {
-  font-size: 60px;
+.search-bar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  margin: 0 10px 10px 0;
+  /* border: 2px solid green; */
+  cursor: pointer;
+}
+
+.search-bar:hover {
+  width: 25px;
+  -webkit-transition: width 400ms ease-in-out;
+  -ms-transition: width 400ms ease-in-out;
+  transition: width 400ms ease-in-out;
 }
