@@ -80,10 +80,10 @@ body {
   color: white;
   font-size: 15px;
   font-weight: bold;
-  padding: 5px 50px;
+  padding: 3px 50px;
   margin: 0 50px 0 50px;
   border-radius: 100px;
-  border: none;
+  border: 2px solid #FFD297;
   opacity: 0.9;
   cursor: pointer;
 }
@@ -91,28 +91,46 @@ body {
 .img-container .btn1:hover {
   background-color: white;
   color: #FFD297;
-  opacity: 0.9;
+  opacity: 1.0;
 }
 
 .img-container .btn1:focus {
   outline: 0;
 }
 
-.search-bar {
+.search {
+  display: flex;
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 30px;
   margin: 0 30px 10px 0;
   background-color: #FFD297;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   padding: 5px;
   border-radius: 10px;
   /* border: 2px solid green; */
   cursor: pointer;
 }
 
-.search-bar:hover {
+.search-box {
+  font-size: 15px;
+  padding-left: 10px;
+  border: 0;
+  margin-right: 6px;
+}
+
+.search-box:focus {
+  outline: 0;
+}
+
+.search-logo {
+  width: 30px;
+  background-color: #FFD297;
+  /* border: 2px solid green; */
+  cursor: pointer;
+}
+
+.search-logo:hover {
   width: 35px;
   opacity: 0.9;
   -webkit-transition: width 400ms ease-in-out, opacity 400ms ease-in-out;

@@ -6,6 +6,8 @@
 	<title>ASD Virtus Trento</title>
 	<link rel="stylesheet" type="text/css" href="main.css" />
 	<link rel="stylesheet" type="text/css" href="media.css" />
+	<link rel="stylesheet" type="text/css" href="media.css" />
+	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
 
@@ -25,12 +27,15 @@
 	<div class=img-container>
 		<img class="my-img" src="images/primera-squad.jpg">
 		<div class="img-buttons">
-			<button onclick="location.href='the-club.html'" type="button" class="btn1">HEP1</button>
-			<button onclick="location.href='index.html'" type="button" class="btn1">HEP2</button>
+			<button id="but1" onclick="location.href='the-club.html'" type="button" class="btn1">HEP1</button>
+			<button id="but2" onclick="location.href='index.html'" type="button" class="btn1">HEP2</button>
 		</div>
 	</div>
 
-	<img src="images/search-logo.png" class="search-bar">
+	<div id="searchID" class="search" style="opacity: 0.6;">
+		<input id="myDIV" class="search-box" type="text" name="search" size="40" style="display: none;" placeholder="Search">
+		<img src="images/search-logo.png" class="search-logo" onclick="spanSearch()">
+	</div>
 
 </body>
 </html>
