@@ -1,7 +1,7 @@
 function spanSearch() {
-  var x = document.getElementById("myDIV");
+  var x = document.getElementById("search-input");
   var y = document.getElementById("searchID");
-	if (document.getElementById("myDIV").style.display === "none") {
+	if (document.getElementById("search-input").style.display == "none") {
 		x.style = "display: block;";
     x.focus();
     y.style = "opacity: 1.0;";
@@ -11,6 +11,12 @@ function spanSearch() {
 	}
 }
 
-// var element = document.getElementById('id');
-// element.style.opacity = "0.9";
-// element.style.filter  = 'alpha(opacity=90)'; // IE fallback
+function scrollToCLub() {
+  var element = document.querySelector(".aboutclub-container");
+  element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+}
+
+function scrollToContact() {
+  var element = document.querySelector(".contact-container");
+  element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+}

@@ -44,6 +44,7 @@ body {
   padding: 5px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   /* border: 1px red solid; */
 }
 
@@ -61,6 +62,7 @@ body {
 }
 
 .my-img {
+  display: block;
   width: 100%;
   height: auto;
   opacity: 0.8;
@@ -136,4 +138,16 @@ body {
   -webkit-transition: width 400ms ease-in-out, opacity 400ms ease-in-out;
   -ms-transition: width 400ms ease-in-out, opacity 400ms ease-in-out;
   transition: width 400ms ease-in-out, opacity 400ms ease-in-out;
+}
+
+.aboutclub-container {
+  height: 700px;
+  background-color: blue;
+  border-top: 0.1px solid green;
+}
+
+.contact-container {
+  height: 200px;
+  background-color: red;
+  border-top: 0.1px solid green;
 }
