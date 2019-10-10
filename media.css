@@ -20,8 +20,12 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .img-container .btn1 {
-    margin: 0 25px 0 25px;
+  #but1 {
+    margin-right: 30px;
+  }
+
+  #but2 {
+    margin-left: 30px;
   }
 }
 
@@ -48,7 +52,17 @@
   }
 
   .img-container .btn1 {
-    margin: 0 1px 0 1px;
+    /* margin: 0 1px 0 1px; */
+    /* font-size: 15px; */
+    padding: 5px 13px;
+  }
+
+  #but1 {
+    margin-right: 10px;
+  }
+
+  #but2 {
+    margin-left: 10px;
   }
 }
 
@@ -71,16 +85,18 @@
     flex-direction: column;
   }
 
-  .img-container {
-    position: relative;
-    /* top: 61px; */
-    /* border: 2px solid green; */
+  .img-container .btn1 {
+    /* margin: 0 1px 0 1px; */
+    /* font-size: 15px; */
+    padding: 5px 13px;
   }
 
-  .img-container .btn1 {
-    margin: 0 1px 0 1px;
-    font-size: 15px;
-    padding: 5px 10px;
+  #but1 {
+    margin-right: 10px;
+  }
+
+  #but2 {
+    margin-left: 10px;
   }
 
   .search {

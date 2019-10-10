@@ -83,11 +83,19 @@ body {
   font-size: 15px;
   font-weight: bold;
   padding: 3px 50px;
-  margin: 0 50px 0 50px;
+  /* margin: 0 50px 0 50px; */
   border-radius: 100px;
   border: 2px solid #FFD297;
   opacity: 0.9;
   cursor: pointer;
+}
+
+#but1 {
+  margin-right: 50px;
+}
+
+#but2 {
+  margin-left: 50px;
 }
 
 .img-container .btn1:hover {
