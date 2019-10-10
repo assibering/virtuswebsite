@@ -127,6 +127,7 @@ body {
 
 .search-logo {
   width: 30px;
+  height: 30px;
   background-color: #FFD297;
   /* border: 2px solid green; */
   cursor: pointer;

@@ -82,4 +82,8 @@
     font-size: 15px;
     padding: 5px 10px;
   }
+
+  .search {
+    margin: 0 10px 10px 0;
+  }
 }
